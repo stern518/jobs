@@ -1,0 +1,274 @@
+body {
+  background: #312c28;
+  padding: 0;
+  margin: 0;
+  font-family: "Verlag A", "Verlag B" , "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #494949;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#mainbody {
+  background: #F7F7F7;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Verlag A", "Verlag B" , "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: inherit;
+  text-rendering: optimizeLegibility;
+  margin-top: 0;
+  margin-bottom: 8px;
+  margin-bottom: 0.5rem;
+}
+
+h1 {
+  font-size: 1.5rem;}
+
+h2 {
+  font-size: .70rem;}
+
+h3 {
+  font-size: 1.1875rem; }
+
+h4 {
+  font-size: 1.125rem; }
+
+h5 {
+  font-size: 1.0625rem; }
+
+h6 {
+  font-size: 1rem; }
+
+@media screen and (min-width: 40em) {
+  h1 {
+    font-size: 3rem;}
+  h2 {
+    font-size: 1.25rem;}
+  h3 {
+    font-size: 1.9375rem; }
+  h4 {
+    font-size: 1.25rem; }
+  h5 {
+    font-size: 1.25rem; }
+  h6 {
+    font-size: 1rem; } }
+
+header {
+  padding: 2rem 1rem;
+  background: #FFF;
+}
+
+header h1 {
+  color: #C5050C;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+#atuw {
+  font-weight: 400;
+}
+
+header h2 {
+  color: #666;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top: 0.75rem;
+  margin-bottom: 0;
+}
+
+a, a:visited {
+  color: #FFF;
+}
+
+a:hover, a:active{
+  text-decoration: underline;
+}
+
+#searchrow {
+  background-color: hsla(0,0%,90%,.7);
+  text-align: center;
+  padding: 1rem;
+  height: 5rem;
+}
+
+#subsearchrow {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+#subsearchrow .button {
+  background: #999;
+  display: inline-block;;
+}
+
+#subsearchrow .button:hover {
+  background: #aaa;
+}
+
+.search-wrapper {
+  width: 100%;
+  height: 3rem;
+}
+
+.field-wrapper {
+  width: 70%;
+  height: 100%;
+  float: left;
+  border-left: 0.2rem solid #C3020A;
+}
+
+.submit-wrapper {
+  width: 30%;
+  height: 100%;
+  float: right;
+}
+
+input[type="text"].Keyword {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  border: 0;
+  box-shadow: none;
+  padding: 1rem;
+  background-image: url("../img/search-jobs.svg");
+  background-size: 6rem;
+  background-repeat: no-repeat;
+  background-position: .9rem 1.1rem;
+}
+
+input[type="text"].Keyword:focus {
+    background-image: none;
+}
+
+input[type="submit"].submit-button {
+  width: 100%;
+  height: 100%;
+  color: #FFF;
+  border: 0;
+  background-color: #C3020A;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+input[type="submit"].submit-button:hover {
+  background-color: #A00208;
+}
+
+input[type="submit"].submit-button:active {
+  background-color: #FFF;
+  color: #C3020A;
+}
+
+input[placeholder] {
+  font-style: italic;
+}
+
+.callout {
+  border-top: 1px solid #CFCFCF;
+  border-right: 1px solid #CFCFCF;
+  border-left: 1px solid #CFCFCF;
+  border-bottom: 4px solid #C5050C;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+}
+
+.callout strong {
+  font-family: "Vitesse A", "Vitesse B" , "Helvetica Neue", "Helvetica", "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.0rem;
+  color: #C5050C;
+}
+
+.contentwrapper {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  background: #FFF;
+}
+
+.content {
+  padding: 2rem;
+}
+
+.content h3 {
+  color: #C3020A;
+}
+
+.nopad {
+  padding: 0;
+}
+
+.button {
+  padding: 1rem 1rem;
+  color: #FFF;
+  border: 0;
+  background-color: #C3020A;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.button:hover, .button:focus {
+  background-color: #A00208;
+  text-decoration: none;
+}
+
+.button:visited, {
+  background-color: #C3020A;
+}
+
+footer {
+  /*background-color: hsla(0,0%,90%,.7);*/
+  background: url("../img/footer-alt.jpg") no-repeat top center;
+  padding: 4rem;
+  margin-top: 4rem;
+}
+
+footer p, footer a {
+  color: #CFCFCF;
+}
+
+footer h4 {
+  color: #D9DEE1;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+footer a:hover {
+  color: inherit;
+  text-decoration: underline;
+}
+
+#footercrest {
+  width: 15rem;
+}
+
+#contactohr {
+  background-color: hsla(0,0%,50%,.5);
+}
+
+#contactohr:hover {
+  background-color: hsla(0,0%,90%,.5);
+}
+
+ul#social {
+  list-style-type: none;
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+#social li {
+  display: inline;
+  padding-right: 1.5rem;
+}
+
+#social a:hover {
+  text-decoration: none;
+  color: #999;
+}
